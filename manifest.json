@@ -1,0 +1,14 @@
+{
+  "name": "Chrome Speed",
+  "version": "0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab", "declarativeContent", "management"],
+  "manifest_version": 2
+}

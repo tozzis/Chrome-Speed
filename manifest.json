@@ -10,5 +10,8 @@
     "persistent": false
   },
   "permissions": ["activeTab", "declarativeContent", "management"],
-  "manifest_version": 2
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon_128.png"
+  }
 }

@@ -9,11 +9,7 @@
       "128": "/icons/icon_128.png"
     }
   },
-  "background":{
-    "service_worker": "/scripts/background.js"
-  },
   "permissions": [
-    "tabs",
     "activeTab",
     "scripting"
   ],
